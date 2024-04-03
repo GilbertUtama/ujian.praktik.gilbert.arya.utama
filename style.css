@@ -1,0 +1,45 @@
+body{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    display: grid;
+    place-items: center;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    font-family: "Poppins";
+}
+
+.username{
+    padding: 0.7rem;
+    width: 15rem;
+    border:0.1rem solid black;
+    resize: none;
+    box-shadow: bisque,burlywood;
+    border-radius: 2rem;
+}
+.password{
+    padding: 0.7rem;
+    width: 15rem;
+    border:0.1rem solid black;
+    resize: none;
+    box-shadow: rgba(0,0,0,0.35), 0em 5em 25em;
+    border-radius: 2rem;
+}
+
+.button-alignment{
+    display: flex;
+    flex-direction: row;
+}

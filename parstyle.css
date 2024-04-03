@@ -1,0 +1,57 @@
+.header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    background-color: blanchedalmond;
+}
+.content{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.foto{
+	width: 200px;
+	height: 200px;
+	border: solid;
+	border-radius: 100%;
+}
+.ket h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.isi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.pen{
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+	height: 200px;
+	border: solid;
+}
+.pre{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+	height: 200px;
+	border: solid;
+}
+.dll{
+    width: 100%;
+	height: 200px;
+    margin-bottom: 20px;
+	border: solid;
+    margin: 0;
+}
